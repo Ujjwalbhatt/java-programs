@@ -16,58 +16,8 @@ income : to store the income of the employee
 tax : to store the tax amount
 panNo: to store the pan number of the employee
 */
-// #include<iostream>
-// using namespace std;
-// #include<string.h>
-// class Employee{
-//     public:
-//     char name[50];
-//     int income;
-//     float tax;
-//     char panNo[50];
-//     Employee(){}
-//     void inputInfo(){
-//         cout<<"Enter the name of the employee: ";
-//         cin>>name;
-//         cout<<"Enter the income of the employee: ";
-//         cin>>income;
-//         cout<<"Enter the pan number of the employee: ";
-//         cin>>panNo;
-//     }
-// void computeTax(){
-//     if(income<=250000){
-//         tax=0;
-//     }
-//     else if(income<=300000){
-//         tax=0.1*(income-250000);
-//     }
-//     else if(income<=400000){
-//         tax=5000+0.2*(income-300000);
-//     }
-//     else{
-//         tax=25000+0.3*(income-400000);
-//     }
-// }
-//      void displayInfo(){
-//         cout<<"---------------------------------------------------"<<endl;
-//         cout<<"Name of the employee: "<<name<<endl;
-//         cout<<"Income of the employee: "<<income<<endl;
-//         cout<<"Tax amount of the employee: "<<tax<<endl;
-//         cout<<"Pan number of the employee: "<<panNo<<endl;
-//         cout<<"---------------------------------------------------"<<endl;
-//     }
-// };
-// int main()
-// {
-//     Employee e;
-//     e.inputInfo();
-//     e.computeTax();
-//     e.displayInfo();
-//     return 0;
-// }
-
 //java code 
-
+ 
 import java.util.Scanner;
 
 class Employee{

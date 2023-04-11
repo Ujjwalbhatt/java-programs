@@ -1,0 +1,27 @@
+// Implementation of Copy Constructor in Java
+class Cons
+{
+int x,y;
+Cons(int x,int y)
+{
+this.x=x;
+this.y=y;
+}
+Cons(Cons s)
+{
+this(s.x,s.y);
+}
+void show()
+{
+System.out.println("x= "+x);
+System.out.println("y= "+y);
+
+}
+public static void main(String args[])
+{
+Cons d1=new Cons(5,6);
+Cons d2=new Cons(d1);
+d2.show();
+}
+
+}

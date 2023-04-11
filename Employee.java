@@ -14,28 +14,28 @@ public class Employee {
    String name;
      int salary;
    static String companyName;
-    public void setId(int id){
+     void setId(int id){
         this.id = id;
     }
-    public void setName(String name){
+     void setName(String name){
         this.name = name;
     }
-    public void setSalary(int salary){
+     void setSalary(int salary){
         this.salary = salary;
     }
      void setCompanyName(String companyName){
         this.companyName = companyName;
     }
-    public int getId(){
+     int getId(){
         return id;
     }
-    public String getName(){
+     String getName(){
         return name;
     }
-    public int getSalary(){
+     int getSalary(){
         return salary;
     }
-    public String getCompanyName(){
+     String getCompanyName(){
         return companyName;
     }
     public static void main(String args[]){
@@ -57,7 +57,5 @@ public class Employee {
         System.out.println("The salary of e2 is: "+e2.getSalary());
         System.out.println("The company name of e2 is: "+e2.getCompanyName());
     }
-
-    
 }
 

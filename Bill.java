@@ -42,16 +42,13 @@ class Bill{
          if(charge > 300){
             total = charge + charge * 0.15f;
             charge = total;
-        }
-   
+         }
     }
-
     void display(){
         System.out.println("Name of the user: " + name);
         System.out.println("Number of units consumed: " + units);
         System.out.println("Total amount to be paid: " + charge);
     }
-
     public static void main(String[] args) {
         Bill b = new Bill();
         b.getdata();

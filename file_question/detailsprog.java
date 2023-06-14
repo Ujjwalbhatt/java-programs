@@ -35,6 +35,13 @@ class detailsprog {
         String name=br.readLine();
         System.out.println("Enter the branch");
         String branch=br.readLine();
+        bw.write(name+"\n");
+        bw.write(branch+"\n");
+        bw.close();
+        fw.close();
+        br.close(); 
+        isr.close();
+        
         
     }
 }

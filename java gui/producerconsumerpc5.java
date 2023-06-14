@@ -1,4 +1,4 @@
-//Write the program to 
+//Write the program to   create a thread and set the priority of the thread.  Also write the program to get the priority of the thread.  Also write the program to get the priority of the thread.  
 
 import java.util.*;
 class producerconsumerpc{

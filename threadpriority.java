@@ -1,7 +1,5 @@
 //Write the programme to get the priority of the thread and set the priority of the thread.
-
 import java.lang.Thread;
-
 class thread1 extends Thread{
     public void run(){
         System.out.println("Thread 1 is running");
@@ -24,6 +22,7 @@ class thread4 extends Thread{
         System.out.println("Thread 4 is running");
     }
 }
+
 public class threadpriority {
     
     public static void main(String[] args) {

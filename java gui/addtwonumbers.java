@@ -1,42 +1,4 @@
-//Write  aprogram to make the gui to add two number
 
-// import javax.swing.*;
-// import java.awt.*;
-// import java.awt.event.*;
-
-// class abc extends JFrame implements ActionListener {
-//     JLabel l1, l2, l3;
-//     JTextField t1, t2;
-//     JButton b1;
-//     l1 = new JLabel("Enter first number");
-//     l2 = new JLabel("Enter second number");
-//     l3 = new JLabel("Result");
-//     tf1 = new JTextField(10);
-//     tf2 = new JTextField(20);
-//     tf3 = new JTextField(20);
-//     b1 = new JButton("+");
-//     abc(){
-//         setLayout(new FlowLayout());
-//         add(l1);
-//         add(tf1);
-//         add(l2);
-//         add(tf2);
-//         add(l3);
-//         add(tf3);
-//         add(b1);
-//         b1.addActionListener(this);
-
-//     }
-
-
-// }
-// class addtwonumbers 
-// public static void main(String[] args) {
-//     addtwonumbers a = new addtwonumbers();
-//     a.setSize(400, 400);
-//     a.setVisible(true);
-//     a.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-// }
 
 import javax.swing.*;
 import java.awt.*;

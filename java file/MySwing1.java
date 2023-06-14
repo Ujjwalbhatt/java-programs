@@ -1,5 +1,6 @@
 import javax.swing.*;
 import java.awt.*;//  
+import java.util.LinkedList;
 public class MySwing1 extends JFrame
 {
 MySwing1()
@@ -7,8 +8,8 @@ MySwing1()
 
 JLabel l1=new JLabel("First Name");
 JLabel l2=new JLabel("Second Name");
-JTextField tf1=new JTextField(20);
-JTextField tf2=new JTextField(20);
+JTextField tf1=new JTextField("Example: Ujjwal");
+JTextField tf2=new JTextField("Example: Bhatt");
 setLayout(new FlowLayout());
 add(l1);
 add(tf1);
@@ -34,10 +35,11 @@ JRadioButton rb2=new JRadioButton("CSE");
 JRadioButton rb3=new JRadioButton("EC",true);
 ButtonGroup bg=new ButtonGroup();
 bg.add(rb1);
-bg.add(rb2);bg.add(rb3);
+bg.add(rb2);
+bg.add(rb3);
 add(rb1);
-add(rb2);add(rb3);
-
+add(rb2);
+add(rb3);
 DefaultListModel<String> d=new DefaultListModel<>();
 d.addElement("India");
 d.addElement("Nepal");

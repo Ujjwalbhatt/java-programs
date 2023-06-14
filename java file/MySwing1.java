@@ -61,9 +61,6 @@ String col[]={"ID","NAME","SALARY"};
 JTable jtb=new JTable(data,col);
 JScrollPane sp=new JScrollPane(jtb);
 add(sp);
-
-
-
 }
 public static void main(String args[])
 {
